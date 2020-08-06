@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #324d81;
+}
+
+.banner-rotativo {
+    width: 100%;
+}
+
+h4,
+.h4 {
+    font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+h6,
+.h6 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box-prod a {
+    text-decoration: none;
+}
+
+.box-prod a:hover {
+    text-decoration: none;
+}
+
+.box-prod p {
+    font-size: .8rem;
+}
+
+.box-prod span {
+    font-size: 1.7em;
+}
+
+.button-box {
+    background-color: #f2ac3a;
+    color: #fff;
+}
+
+.box-prod:hover .button-box {
+    background-color: #7491c9;
+}
+
+.categorias a {
+    text-decoration: none;
+}
+
+.categorias a:hover {
+    text-decoration: none;
+    color: #f2ac3a;
+}
+
+.categorias a:hover h6 {
+    color: #f2ac3a;
+}
+
+/* produtos site */
+
+.selo {
+    width: auto;
+    max-width: 180px;
+    min-height: 20px;
+    line-height: 1.1em;
+    padding: 4px 2px 2px 2px;
+    margin: 5px auto;
+    font-size: 0.7em;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+}
+
+.fretegratis {
+    background: #ff274c;
+}
+.blocoproduto h1 {
+    font-size: .9em;
+    display: block;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+    h5,
+    .h5 {
+        font-size: 1rem;
+        font-weight: bold;
+    }  
+}
